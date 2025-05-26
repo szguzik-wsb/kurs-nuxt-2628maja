@@ -6,7 +6,7 @@
       </button>
       <div class="p-6">
         <h2 class="text-xl font-bold mb-4">To jest modal</h2>
-        <p class="text-gray-700">Tresć modalnego okna</p>
+        <p class="text-gray-700">{{ nameuser }}</p>
       </div>
     </div>
   </div>
@@ -17,6 +17,10 @@ const props = defineProps({
   modalValue: {
     type: Boolean,
     required: true
+  },
+
+  nameuser: {
+    type: String
   }
 })
 
