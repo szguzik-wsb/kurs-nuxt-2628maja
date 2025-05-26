@@ -1,20 +1,20 @@
-      select option:hover {
-          background-color: #16a34a;
-          /* green-600 */
-          color: white;
-      }
+select option:hover {
+  background-color: #16a34a;
+  /* green-600 */
+  color: white;
+}
 
-      @media (max-width: 1000px) {
-          .desktop-search {
-              display: none !important;
-          }
+@media (max-width: 1000px) {
+  .desktop-search {
+    display: none !important;
+  }
 
-          .custom-mobile-search {
-              display: block !important;
-          }
-      }
+  .custom-mobile-search {
+    display: block !important;
+  }
+}
 
-      .productSwiper .swiper-slide {
-          width: 100% !important;
-          height: auto;
-      }
+.productSwiper .swiper-slide {
+  width: 100% !important;
+  height: auto;
+}

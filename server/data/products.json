@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 1,
+    "title": "Kompostownik ogrodowy",
+    "description": "Naturalny sposób na przetwarzanie odpadów organicznych",
+    "price": 129.99,
+    "image": "https://picsum.photos/seed/1/200/140",
+    "categories": ["Ogród"]
+  },
+  {
+    "id": 2,
+    "title": "Zestaw bambusowych szczoteczek",
+    "description": "Zestaw 4 ekologicznych szczoteczek do zębów z bambusa",
+    "price": 19.9,
+    "image": "https://picsum.photos/seed/2/200/140",
+    "categories": ["Sypialnia", "Eko Dom"]
+  },
+  {
+    "id": 3,
+    "title": "Butelka filtrująca 0.7L",
+    "description": "Wielorazowa butelka z węglowym filtrem do wody kranowej",
+    "price": 39.9,
+    "image": "https://picsum.photos/seed/3/200/140",
+    "categories": ["Zero Waste", "Ogród"]
+  },
+  {
+    "id": 4,
+    "title": "Eko torba na zakupy",
+    "description": "Bawełniana torba wielorazowego użytku z nadrukiem roślinnym",
+    "price": 14.9,
+    "image": "https://picsum.photos/seed/4/200/140",
+    "categories": ["Eko Dom", "Ogród"]
+  },
+  {
+    "id": 5,
+    "title": "Materac kieszeniowy 140x200",
+    "description": "Wygodny, ekologiczny materac z pokrowcem, idealny do sypialni",
+    "price": 499.0,
+    "image": "https://picsum.photos/seed/5/200/140",
+    "categories": ["Ogród", "Zero Waste"]
+  },
+  {
+    "id": 6,
+    "title": "Kompostownik ogrodowy",
+    "description": "Naturalny sposób na przetwarzanie odpadów organicznych",
+    "price": 129.99,
+    "image": "https://picsum.photos/seed/6/200/140",
+    "categories": ["Sypialnia"]
+  },
+  {
+    "id": 7,
+    "title": "Zestaw bambusowych szczoteczek",
+    "description": "Zestaw 4 ekologicznych szczoteczek do zębów z bambusa",
+    "price": 19.9,
+    "image": "https://picsum.photos/seed/7/200/140",
+    "categories": ["Sypialnia", "Ogród", "Zero Waste"]
+  },
+  {
+    "id": 8,
+    "title": "Butelka filtrująca 0.7L",
+    "description": "Wielorazowa butelka z węglowym filtrem do wody kranowej",
+    "price": 39.9,
+    "image": "https://picsum.photos/seed/8/200/140",
+    "categories": ["Eko Dom", "Ogród"]
+  },
+  {
+    "id": 9,
+    "title": "Eko torba na zakupy",
+    "description": "Bawełniana torba wielorazowego użytku z nadrukiem roślinnym",
+    "price": 14.9,
+    "image": "https://picsum.photos/seed/9/200/140",
+    "categories": ["Ogród", "Eko Dom"]
+  },
+  {
+    "id": 10,
+    "title": "Materac kieszeniowy 140x200",
+    "description": "Wygodny, ekologiczny materac z pokrowcem, idealny do sypialni",
+    "price": 499.0,
+    "image": "https://picsum.photos/seed/10/200/140",
+    "categories": ["Sypialnia"]
+  },
+  {
+    "id": 11,
+    "title": "Kompostownik ogrodowy",
+    "description": "Naturalny sposób na przetwarzanie odpadów organicznych",
+    "price": 129.99,
+    "image": "https://picsum.photos/seed/11/200/140",
+    "categories": ["Eko Dom", "Sypialnia"]
+  },
+  {
+    "id": 12,
+    "title": "Zestaw bambusowych szczoteczek",
+    "description": "Zestaw 4 ekologicznych szczoteczek do zębów z bambusa",
+    "price": 19.9,
+    "image": "https://picsum.photos/seed/12/200/140",
+    "categories": ["Sypialnia", "Eko Dom"]
+  },
+  {
+    "id": 13,
+    "title": "Butelka filtrująca 0.7L",
+    "description": "Wielorazowa butelka z węglowym filtrem do wody kranowej",
+    "price": 39.9,
+    "image": "https://picsum.photos/seed/13/200/140",
+    "categories": ["Eko Dom", "Ogród"]
+  },
+  {
+    "id": 14,
+    "title": "Eko torba na zakupy",
+    "description": "Bawełniana torba wielorazowego użytku z nadrukiem roślinnym",
+    "price": 14.9,
+    "image": "https://picsum.photos/seed/14/200/140",
+    "categories": ["Sypialnia", "Eko Dom", "Zero Waste"]
+  },
+  {
+    "id": 15,
+    "title": "Materac kieszeniowy 140x200",
+    "description": "Wygodny, ekologiczny materac z pokrowcem, idealny do sypialni",
+    "price": 499.0,
+    "image": "https://picsum.photos/seed/15/200/140",
+    "categories": ["Zero Waste", "Eko Dom", "Ogród"]
+  },
+  {
+    "id": 16,
+    "title": "Kompostownik ogrodowy",
+    "description": "Naturalny sposób na przetwarzanie odpadów organicznych",
+    "price": 129.99,
+    "image": "https://picsum.photos/seed/16/200/140",
+    "categories": ["Zero Waste", "Ogród"]
+  },
+  {
+    "id": 17,
+    "title": "Zestaw bambusowych szczoteczek",
+    "description": "Zestaw 4 ekologicznych szczoteczek do zębów z bambusa",
+    "price": 19.9,
+    "image": "https://picsum.photos/seed/17/200/140",
+    "categories": ["Zero Waste"]
+  },
+  {
+    "id": 18,
+    "title": "Butelka filtrująca 0.7L",
+    "description": "Wielorazowa butelka z węglowym filtrem do wody kranowej",
+    "price": 39.9,
+    "image": "https://picsum.photos/seed/18/200/140",
+    "categories": ["Zero Waste", "Eko Dom"]
+  },
+  {
+    "id": 19,
+    "title": "Eko torba na zakupy",
+    "description": "Bawełniana torba wielorazowego użytku z nadrukiem roślinnym",
+    "price": 14.9,
+    "image": "https://picsum.photos/seed/19/200/140",
+    "categories": ["Zero Waste", "Sypialnia", "Ogród"]
+  },
+  {
+    "id": 20,
+    "title": "Materac kieszeniowy 140x200",
+    "description": "Wygodny, ekologiczny materac z pokrowcem, idealny do sypialni",
+    "price": 499.0,
+    "image": "https://picsum.photos/seed/20/200/140",
+    "categories": ["Zero Waste", "Eko Dom", "Ogród"]
+  },
+  {
+    "id": 21,
+    "title": "Kompostownik ogrodowy",
+    "description": "Naturalny sposób na przetwarzanie odpadów organicznych",
+    "price": 129.99,
+    "image": "https://picsum.photos/seed/21/200/140",
+    "categories": ["Ogród"]
+  },
+  {
+    "id": 22,
+    "title": "Zestaw bambusowych szczoteczek",
+    "description": "Zestaw 4 ekologicznych szczoteczek do zębów z bambusa",
+    "price": 19.9,
+    "image": "https://picsum.photos/seed/22/200/140",
+    "categories": ["Sypialnia"]
+  },
+  {
+    "id": 23,
+    "title": "Butelka filtrująca 0.7L",
+    "description": "Wielorazowa butelka z węglowym filtrem do wody kranowej",
+    "price": 39.9,
+    "image": "https://picsum.photos/seed/23/200/140",
+    "categories": ["Ogród", "Sypialnia"]
+  },
+  {
+    "id": 24,
+    "title": "Eko torba na zakupy",
+    "description": "Bawełniana torba wielorazowego użytku z nadrukiem roślinnym",
+    "price": 14.9,
+    "image": "https://picsum.photos/seed/24/200/140",
+    "categories": ["Zero Waste", "Eko Dom", "Ogród"]
+  },
+  {
+    "id": 25,
+    "title": "Materac kieszeniowy 140x200",
+    "description": "Wygodny, ekologiczny materac z pokrowcem, idealny do sypialni",
+    "price": 499.0,
+    "image": "https://picsum.photos/seed/25/200/140",
+    "categories": ["Zero Waste", "Ogród"]
+  },
+  {
+    "id": 26,
+    "title": "Kompostownik ogrodowy",
+    "description": "Naturalny sposób na przetwarzanie odpadów organicznych",
+    "price": 129.99,
+    "image": "https://picsum.photos/seed/26/200/140",
+    "categories": ["Eko Dom", "Zero Waste"]
+  },
+  {
+    "id": 27,
+    "title": "Zestaw bambusowych szczoteczek",
+    "description": "Zestaw 4 ekologicznych szczoteczek do zębów z bambusa",
+    "price": 19.9,
+    "image": "https://picsum.photos/seed/27/200/140",
+    "categories": ["Sypialnia", "Eko Dom", "Zero Waste"]
+  },
+  {
+    "id": 28,
+    "title": "Butelka filtrująca 0.7L",
+    "description": "Wielorazowa butelka z węglowym filtrem do wody kranowej",
+    "price": 39.9,
+    "image": "https://picsum.photos/seed/28/200/140",
+    "categories": ["Eko Dom", "Zero Waste"]
+  },
+  {
+    "id": 29,
+    "title": "Eko torba na zakupy",
+    "description": "Bawełniana torba wielorazowego użytku z nadrukiem roślinnym",
+    "price": 14.9,
+    "image": "https://picsum.photos/seed/29/200/140",
+    "categories": ["Zero Waste", "Eko Dom"]
+  },
+  {
+    "id": 30,
+    "title": "Materac kieszeniowy 140x200",
+    "description": "Wygodny, ekologiczny materac z pokrowcem, idealny do sypialni",
+    "price": 499.0,
+    "image": "https://picsum.photos/seed/30/200/140",
+    "categories": ["Ogród"]
+  },
+  {
+    "id": 31,
+    "title": "Kompostownik ogrodowy",
+    "description": "Naturalny sposób na przetwarzanie odpadów organicznych",
+    "price": 129.99,
+    "image": "https://picsum.photos/seed/31/200/140",
+    "categories": ["Sypialnia", "Ogród"]
+  },
+  {
+    "id": 32,
+    "title": "Zestaw bambusowych szczoteczek",
+    "description": "Zestaw 4 ekologicznych szczoteczek do zębów z bambusa",
+    "price": 19.9,
+    "image": "https://picsum.photos/seed/32/200/140",
+    "categories": ["Eko Dom", "Sypialnia", "Zero Waste"]
+  },
+  {
+    "id": 33,
+    "title": "Butelka filtrująca 0.7L",
+    "description": "Wielorazowa butelka z węglowym filtrem do wody kranowej",
+    "price": 39.9,
+    "image": "https://picsum.photos/seed/33/200/140",
+    "categories": ["Sypialnia", "Eko Dom"]
+  },
+  {
+    "id": 34,
+    "title": "Eko torba na zakupy",
+    "description": "Bawełniana torba wielorazowego użytku z nadrukiem roślinnym",
+    "price": 14.9,
+    "image": "https://picsum.photos/seed/34/200/140",
+    "categories": ["Eko Dom"]
+  },
+  {
+    "id": 35,
+    "title": "Materac kieszeniowy 140x200",
+    "description": "Wygodny, ekologiczny materac z pokrowcem, idealny do sypialni",
+    "price": 499.0,
+    "image": "https://picsum.photos/seed/35/200/140",
+    "categories": ["Zero Waste", "Eko Dom", "Sypialnia"]
+  },
+  {
+    "id": 36,
+    "title": "Kompostownik ogrodowy",
+    "description": "Naturalny sposób na przetwarzanie odpadów organicznych",
+    "price": 129.99,
+    "image": "https://picsum.photos/seed/36/200/140",
+    "categories": ["Zero Waste", "Ogród", "Sypialnia"]
+  },
+  {
+    "id": 37,
+    "title": "Zestaw bambusowych szczoteczek",
+    "description": "Zestaw 4 ekologicznych szczoteczek do zębów z bambusa",
+    "price": 19.9,
+    "image": "https://picsum.photos/seed/37/200/140",
+    "categories": ["Zero Waste"]
+  },
+  {
+    "id": 38,
+    "title": "Butelka filtrująca 0.7L",
+    "description": "Wielorazowa butelka z węglowym filtrem do wody kranowej",
+    "price": 39.9,
+    "image": "https://picsum.photos/seed/38/200/140",
+    "categories": ["Ogród", "Eko Dom"]
+  },
+  {
+    "id": 39,
+    "title": "Eko torba na zakupy",
+    "description": "Bawełniana torba wielorazowego użytku z nadrukiem roślinnym",
+    "price": 14.9,
+    "image": "https://picsum.photos/seed/39/200/140",
+    "categories": ["Ogród", "Zero Waste", "Sypialnia"]
+  },
+  {
+    "id": 40,
+    "title": "Materac kieszeniowy 140x200",
+    "description": "Wygodny, ekologiczny materac z pokrowcem, idealny do sypialni",
+    "price": 499.0,
+    "image": "https://picsum.photos/seed/40/200/140",
+    "categories": ["Ogród", "Zero Waste"]
+  },
+  {
+    "id": 41,
+    "title": "Kompostownik ogrodowy",
+    "description": "Naturalny sposób na przetwarzanie odpadów organicznych",
+    "price": 129.99,
+    "image": "https://picsum.photos/seed/41/200/140",
+    "categories": ["Eko Dom", "Ogród"]
+  },
+  {
+    "id": 42,
+    "title": "Zestaw bambusowych szczoteczek",
+    "description": "Zestaw 4 ekologicznych szczoteczek do zębów z bambusa",
+    "price": 19.9,
+    "image": "https://picsum.photos/seed/42/200/140",
+    "categories": ["Zero Waste"]
+  },
+  {
+    "id": 43,
+    "title": "Butelka filtrująca 0.7L",
+    "description": "Wielorazowa butelka z węglowym filtrem do wody kranowej",
+    "price": 39.9,
+    "image": "https://picsum.photos/seed/43/200/140",
+    "categories": ["Zero Waste", "Sypialnia", "Eko Dom"]
+  },
+  {
+    "id": 44,
+    "title": "Eko torba na zakupy",
+    "description": "Bawełniana torba wielorazowego użytku z nadrukiem roślinnym",
+    "price": 14.9,
+    "image": "https://picsum.photos/seed/44/200/140",
+    "categories": ["Eko Dom", "Ogród", "Sypialnia"]
+  },
+  {
+    "id": 45,
+    "title": "Materac kieszeniowy 140x200",
+    "description": "Wygodny, ekologiczny materac z pokrowcem, idealny do sypialni",
+    "price": 499.0,
+    "image": "https://picsum.photos/seed/45/200/140",
+    "categories": ["Zero Waste"]
+  },
+  {
+    "id": 46,
+    "title": "Kompostownik ogrodowy",
+    "description": "Naturalny sposób na przetwarzanie odpadów organicznych",
+    "price": 129.99,
+    "image": "https://picsum.photos/seed/46/200/140",
+    "categories": ["Ogród", "Eko Dom", "Zero Waste"]
+  },
+  {
+    "id": 47,
+    "title": "Zestaw bambusowych szczoteczek",
+    "description": "Zestaw 4 ekologicznych szczoteczek do zębów z bambusa",
+    "price": 19.9,
+    "image": "https://picsum.photos/seed/47/200/140",
+    "categories": ["Zero Waste", "Sypialnia"]
+  },
+  {
+    "id": 48,
+    "title": "Butelka filtrująca 0.7L",
+    "description": "Wielorazowa butelka z węglowym filtrem do wody kranowej",
+    "price": 39.9,
+    "image": "https://picsum.photos/seed/48/200/140",
+    "categories": ["Ogród"]
+  },
+  {
+    "id": 49,
+    "title": "Eko torba na zakupy",
+    "description": "Bawełniana torba wielorazowego użytku z nadrukiem roślinnym",
+    "price": 14.9,
+    "image": "https://picsum.photos/seed/49/200/140",
+    "categories": ["Ogród"]
+  },
+  {
+    "id": 50,
+    "title": "Materac kieszeniowy 140x200",
+    "description": "Wygodny, ekologiczny materac z pokrowcem, idealny do sypialni",
+    "price": 499.0,
+    "image": "https://picsum.photos/seed/50/200/140",
+    "categories": ["Sypialnia", "Eko Dom", "Ogród"]
+  },
+  {
+    "id": 51,
+    "title": "Kompostownik ogrodowy",
+    "description": "Naturalny sposób na przetwarzanie odpadów organicznych",
+    "price": 129.99,
+    "image": "https://picsum.photos/seed/51/200/140",
+    "categories": ["Eko Dom", "Sypialnia", "Zero Waste"]
+  },
+  {
+    "id": 52,
+    "title": "Zestaw bambusowych szczoteczek",
+    "description": "Zestaw 4 ekologicznych szczoteczek do zębów z bambusa",
+    "price": 19.9,
+    "image": "https://picsum.photos/seed/52/200/140",
+    "categories": ["Eko Dom", "Zero Waste"]
+  },
+  {
+    "id": 53,
+    "title": "Butelka filtrująca 0.7L",
+    "description": "Wielorazowa butelka z węglowym filtrem do wody kranowej",
+    "price": 39.9,
+    "image": "https://picsum.photos/seed/53/200/140",
+    "categories": ["Eko Dom", "Sypialnia"]
+  },
+  {
+    "id": 54,
+    "title": "Eko torba na zakupy",
+    "description": "Bawełniana torba wielorazowego użytku z nadrukiem roślinnym",
+    "price": 14.9,
+    "image": "https://picsum.photos/seed/54/200/140",
+    "categories": ["Zero Waste", "Sypialnia", "Eko Dom"]
+  },
+  {
+    "id": 55,
+    "title": "Materac kieszeniowy 140x200",
+    "description": "Wygodny, ekologiczny materac z pokrowcem, idealny do sypialni",
+    "price": 499.0,
+    "image": "https://picsum.photos/seed/55/200/140",
+    "categories": ["Zero Waste", "Eko Dom", "Sypialnia"]
+  },
+  {
+    "id": 56,
+    "title": "Kompostownik ogrodowy",
+    "description": "Naturalny sposób na przetwarzanie odpadów organicznych",
+    "price": 129.99,
+    "image": "https://picsum.photos/seed/56/200/140",
+    "categories": ["Sypialnia", "Eko Dom", "Zero Waste"]
+  },
+  {
+    "id": 57,
+    "title": "Zestaw bambusowych szczoteczek",
+    "description": "Zestaw 4 ekologicznych szczoteczek do zębów z bambusa",
+    "price": 19.9,
+    "image": "https://picsum.photos/seed/57/200/140",
+    "categories": ["Eko Dom", "Sypialnia"]
+  },
+  {
+    "id": 58,
+    "title": "Butelka filtrująca 0.7L",
+    "description": "Wielorazowa butelka z węglowym filtrem do wody kranowej",
+    "price": 39.9,
+    "image": "https://picsum.photos/seed/58/200/140",
+    "categories": ["Ogród", "Eko Dom"]
+  },
+  {
+    "id": 59,
+    "title": "Eko torba na zakupy",
+    "description": "Bawełniana torba wielorazowego użytku z nadrukiem roślinnym",
+    "price": 14.9,
+    "image": "https://picsum.photos/seed/59/200/140",
+    "categories": ["Zero Waste", "Sypialnia", "Eko Dom"]
+  },
+  {
+    "id": 60,
+    "title": "Materac kieszeniowy 140x200",
+    "description": "Wygodny, ekologiczny materac z pokrowcem, idealny do sypialni",
+    "price": 499.0,
+    "image": "https://picsum.photos/seed/60/200/140",
+    "categories": ["Eko Dom"]
+  },
+  {
+    "id": 61,
+    "title": "Kompostownik ogrodowy",
+    "description": "Naturalny sposób na przetwarzanie odpadów organicznych",
+    "price": 129.99,
+    "image": "https://picsum.photos/seed/61/200/140",
+    "categories": ["Eko Dom", "Zero Waste", "Sypialnia"]
+  },
+  {
+    "id": 62,
+    "title": "Zestaw bambusowych szczoteczek",
+    "description": "Zestaw 4 ekologicznych szczoteczek do zębów z bambusa",
+    "price": 19.9,
+    "image": "https://picsum.photos/seed/62/200/140",
+    "categories": ["Eko Dom", "Zero Waste"]
+  },
+  {
+    "id": 63,
+    "title": "Butelka filtrująca 0.7L",
+    "description": "Wielorazowa butelka z węglowym filtrem do wody kranowej",
+    "price": 39.9,
+    "image": "https://picsum.photos/seed/63/200/140",
+    "categories": ["Ogród"]
+  },
+  {
+    "id": 64,
+    "title": "Eko torba na zakupy",
+    "description": "Bawełniana torba wielorazowego użytku z nadrukiem roślinnym",
+    "price": 14.9,
+    "image": "https://picsum.photos/seed/64/200/140",
+    "categories": ["Zero Waste", "Ogród", "Sypialnia"]
+  },
+  {
+    "id": 65,
+    "title": "Materac kieszeniowy 140x200",
+    "description": "Wygodny, ekologiczny materac z pokrowcem, idealny do sypialni",
+    "price": 499.0,
+    "image": "https://picsum.photos/seed/65/200/140",
+    "categories": ["Zero Waste", "Eko Dom"]
+  },
+  {
+    "id": 66,
+    "title": "Kompostownik ogrodowy",
+    "description": "Naturalny sposób na przetwarzanie odpadów organicznych",
+    "price": 129.99,
+    "image": "https://picsum.photos/seed/66/200/140",
+    "categories": ["Zero Waste", "Sypialnia"]
+  },
+  {
+    "id": 67,
+    "title": "Zestaw bambusowych szczoteczek",
+    "description": "Zestaw 4 ekologicznych szczoteczek do zębów z bambusa",
+    "price": 19.9,
+    "image": "https://picsum.photos/seed/67/200/140",
+    "categories": ["Ogród"]
+  },
+  {
+    "id": 68,
+    "title": "Butelka filtrująca 0.7L",
+    "description": "Wielorazowa butelka z węglowym filtrem do wody kranowej",
+    "price": 39.9,
+    "image": "https://picsum.photos/seed/68/200/140",
+    "categories": ["Ogród", "Sypialnia"]
+  },
+  {
+    "id": 69,
+    "title": "Eko torba na zakupy",
+    "description": "Bawełniana torba wielorazowego użytku z nadrukiem roślinnym",
+    "price": 14.9,
+    "image": "https://picsum.photos/seed/69/200/140",
+    "categories": ["Zero Waste", "Sypialnia"]
+  },
+  {
+    "id": 70,
+    "title": "Materac kieszeniowy 140x200",
+    "description": "Wygodny, ekologiczny materac z pokrowcem, idealny do sypialni",
+    "price": 499.0,
+    "image": "https://picsum.photos/seed/70/200/140",
+    "categories": ["Eko Dom", "Zero Waste", "Sypialnia"]
+  },
+  {
+    "id": 71,
+    "title": "Kompostownik ogrodowy",
+    "description": "Naturalny sposób na przetwarzanie odpadów organicznych",
+    "price": 129.99,
+    "image": "https://picsum.photos/seed/71/200/140",
+    "categories": ["Eko Dom", "Ogród", "Zero Waste"]
+  },
+  {
+    "id": 72,
+    "title": "Zestaw bambusowych szczoteczek",
+    "description": "Zestaw 4 ekologicznych szczoteczek do zębów z bambusa",
+    "price": 19.9,
+    "image": "https://picsum.photos/seed/72/200/140",
+    "categories": ["Sypialnia"]
+  },
+  {
+    "id": 73,
+    "title": "Butelka filtrująca 0.7L",
+    "description": "Wielorazowa butelka z węglowym filtrem do wody kranowej",
+    "price": 39.9,
+    "image": "https://picsum.photos/seed/73/200/140",
+    "categories": ["Sypialnia", "Eko Dom"]
+  },
+  {
+    "id": 74,
+    "title": "Eko torba na zakupy",
+    "description": "Bawełniana torba wielorazowego użytku z nadrukiem roślinnym",
+    "price": 14.9,
+    "image": "https://picsum.photos/seed/74/200/140",
+    "categories": ["Zero Waste", "Ogród"]
+  },
+  {
+    "id": 75,
+    "title": "Materac kieszeniowy 140x200",
+    "description": "Wygodny, ekologiczny materac z pokrowcem, idealny do sypialni",
+    "price": 499.0,
+    "image": "https://picsum.photos/seed/75/200/140",
+    "categories": ["Zero Waste", "Sypialnia", "Eko Dom"]
+  },
+  {
+    "id": 76,
+    "title": "Kompostownik ogrodowy",
+    "description": "Naturalny sposób na przetwarzanie odpadów organicznych",
+    "price": 129.99,
+    "image": "https://picsum.photos/seed/76/200/140",
+    "categories": ["Ogród", "Eko Dom", "Zero Waste"]
+  },
+  {
+    "id": 77,
+    "title": "Zestaw bambusowych szczoteczek",
+    "description": "Zestaw 4 ekologicznych szczoteczek do zębów z bambusa",
+    "price": 19.9,
+    "image": "https://picsum.photos/seed/77/200/140",
+    "categories": ["Sypialnia", "Zero Waste", "Eko Dom"]
+  },
+  {
+    "id": 78,
+    "title": "Butelka filtrująca 0.7L",
+    "description": "Wielorazowa butelka z węglowym filtrem do wody kranowej",
+    "price": 39.9,
+    "image": "https://picsum.photos/seed/78/200/140",
+    "categories": ["Sypialnia", "Eko Dom"]
+  },
+  {
+    "id": 79,
+    "title": "Eko torba na zakupy",
+    "description": "Bawełniana torba wielorazowego użytku z nadrukiem roślinnym",
+    "price": 14.9,
+    "image": "https://picsum.photos/seed/79/200/140",
+    "categories": ["Eko Dom", "Ogród", "Zero Waste"]
+  },
+  {
+    "id": 80,
+    "title": "Materac kieszeniowy 140x200",
+    "description": "Wygodny, ekologiczny materac z pokrowcem, idealny do sypialni",
+    "price": 499.0,
+    "image": "https://picsum.photos/seed/80/200/140",
+    "categories": ["Sypialnia"]
+  },
+  {
+    "id": 81,
+    "title": "Kompostownik ogrodowy",
+    "description": "Naturalny sposób na przetwarzanie odpadów organicznych",
+    "price": 129.99,
+    "image": "https://picsum.photos/seed/81/200/140",
+    "categories": ["Zero Waste", "Ogród"]
+  },
+  {
+    "id": 82,
+    "title": "Zestaw bambusowych szczoteczek",
+    "description": "Zestaw 4 ekologicznych szczoteczek do zębów z bambusa",
+    "price": 19.9,
+    "image": "https://picsum.photos/seed/82/200/140",
+    "categories": ["Zero Waste", "Ogród", "Eko Dom"]
+  },
+  {
+    "id": 83,
+    "title": "Butelka filtrująca 0.7L",
+    "description": "Wielorazowa butelka z węglowym filtrem do wody kranowej",
+    "price": 39.9,
+    "image": "https://picsum.photos/seed/83/200/140",
+    "categories": ["Zero Waste", "Ogród", "Eko Dom"]
+  },
+  {
+    "id": 84,
+    "title": "Eko torba na zakupy",
+    "description": "Bawełniana torba wielorazowego użytku z nadrukiem roślinnym",
+    "price": 14.9,
+    "image": "https://picsum.photos/seed/84/200/140",
+    "categories": ["Eko Dom", "Ogród", "Sypialnia"]
+  },
+  {
+    "id": 85,
+    "title": "Materac kieszeniowy 140x200",
+    "description": "Wygodny, ekologiczny materac z pokrowcem, idealny do sypialni",
+    "price": 499.0,
+    "image": "https://picsum.photos/seed/85/200/140",
+    "categories": ["Ogród", "Sypialnia"]
+  },
+  {
+    "id": 86,
+    "title": "Kompostownik ogrodowy",
+    "description": "Naturalny sposób na przetwarzanie odpadów organicznych",
+    "price": 129.99,
+    "image": "https://picsum.photos/seed/86/200/140",
+    "categories": ["Sypialnia", "Ogród"]
+  },
+  {
+    "id": 87,
+    "title": "Zestaw bambusowych szczoteczek",
+    "description": "Zestaw 4 ekologicznych szczoteczek do zębów z bambusa",
+    "price": 19.9,
+    "image": "https://picsum.photos/seed/87/200/140",
+    "categories": ["Zero Waste"]
+  },
+  {
+    "id": 88,
+    "title": "Butelka filtrująca 0.7L",
+    "description": "Wielorazowa butelka z węglowym filtrem do wody kranowej",
+    "price": 39.9,
+    "image": "https://picsum.photos/seed/88/200/140",
+    "categories": ["Sypialnia", "Ogród"]
+  },
+  {
+    "id": 89,
+    "title": "Eko torba na zakupy",
+    "description": "Bawełniana torba wielorazowego użytku z nadrukiem roślinnym",
+    "price": 14.9,
+    "image": "https://picsum.photos/seed/89/200/140",
+    "categories": ["Ogród", "Zero Waste"]
+  },
+  {
+    "id": 90,
+    "title": "Materac kieszeniowy 140x200",
+    "description": "Wygodny, ekologiczny materac z pokrowcem, idealny do sypialni",
+    "price": 499.0,
+    "image": "https://picsum.photos/seed/90/200/140",
+    "categories": ["Eko Dom", "Sypialnia"]
+  },
+  {
+    "id": 91,
+    "title": "Kompostownik ogrodowy",
+    "description": "Naturalny sposób na przetwarzanie odpadów organicznych",
+    "price": 129.99,
+    "image": "https://picsum.photos/seed/91/200/140",
+    "categories": ["Zero Waste", "Eko Dom"]
+  },
+  {
+    "id": 92,
+    "title": "Zestaw bambusowych szczoteczek",
+    "description": "Zestaw 4 ekologicznych szczoteczek do zębów z bambusa",
+    "price": 19.9,
+    "image": "https://picsum.photos/seed/92/200/140",
+    "categories": ["Zero Waste"]
+  },
+  {
+    "id": 93,
+    "title": "Butelka filtrująca 0.7L",
+    "description": "Wielorazowa butelka z węglowym filtrem do wody kranowej",
+    "price": 39.9,
+    "image": "https://picsum.photos/seed/93/200/140",
+    "categories": ["Eko Dom"]
+  },
+  {
+    "id": 94,
+    "title": "Eko torba na zakupy",
+    "description": "Bawełniana torba wielorazowego użytku z nadrukiem roślinnym",
+    "price": 14.9,
+    "image": "https://picsum.photos/seed/94/200/140",
+    "categories": ["Sypialnia"]
+  },
+  {
+    "id": 95,
+    "title": "Materac kieszeniowy 140x200",
+    "description": "Wygodny, ekologiczny materac z pokrowcem, idealny do sypialni",
+    "price": 499.0,
+    "image": "https://picsum.photos/seed/95/200/140",
+    "categories": ["Sypialnia", "Eko Dom"]
+  },
+  {
+    "id": 96,
+    "title": "Kompostownik ogrodowy",
+    "description": "Naturalny sposób na przetwarzanie odpadów organicznych",
+    "price": 129.99,
+    "image": "https://picsum.photos/seed/96/200/140",
+    "categories": ["Eko Dom", "Ogród", "Zero Waste"]
+  },
+  {
+    "id": 97,
+    "title": "Zestaw bambusowych szczoteczek",
+    "description": "Zestaw 4 ekologicznych szczoteczek do zębów z bambusa",
+    "price": 19.9,
+    "image": "https://picsum.photos/seed/97/200/140",
+    "categories": ["Ogród", "Zero Waste", "Eko Dom"]
+  },
+  {
+    "id": 98,
+    "title": "Butelka filtrująca 0.7L",
+    "description": "Wielorazowa butelka z węglowym filtrem do wody kranowej",
+    "price": 39.9,
+    "image": "https://picsum.photos/seed/98/200/140",
+    "categories": ["Eko Dom", "Sypialnia"]
+  },
+  {
+    "id": 99,
+    "title": "Eko torba na zakupy",
+    "description": "Bawełniana torba wielorazowego użytku z nadrukiem roślinnym",
+    "price": 14.9,
+    "image": "https://picsum.photos/seed/99/200/140",
+    "categories": ["Ogród", "Zero Waste"]
+  },
+  {
+    "id": 100,
+    "title": "Materac kieszeniowy 140x200",
+    "description": "Wygodny, ekologiczny materac z pokrowcem, idealny do sypialni",
+    "price": 499.0,
+    "image": "https://picsum.photos/seed/100/200/140",
+    "categories": ["Ogród", "Eko Dom", "Sypialnia"]
+  },
+  {
+    "id": 101,
+    "title": "Kompostownik ogrodowy",
+    "description": "Naturalny sposób na przetwarzanie odpadów organicznych",
+    "price": 129.99,
+    "image": "https://picsum.photos/seed/101/200/140",
+    "categories": ["Eko Dom", "Sypialnia", "Zero Waste"]
+  },
+  {
+    "id": 102,
+    "title": "Zestaw bambusowych szczoteczek",
+    "description": "Zestaw 4 ekologicznych szczoteczek do zębów z bambusa",
+    "price": 19.9,
+    "image": "https://picsum.photos/seed/102/200/140",
+    "categories": ["Ogród", "Sypialnia", "Eko Dom"]
+  },
+  {
+    "id": 103,
+    "title": "Butelka filtrująca 0.7L",
+    "description": "Wielorazowa butelka z węglowym filtrem do wody kranowej",
+    "price": 39.9,
+    "image": "https://picsum.photos/seed/103/200/140",
+    "categories": ["Eko Dom", "Zero Waste", "Sypialnia"]
+  },
+  {
+    "id": 104,
+    "title": "Eko torba na zakupy",
+    "description": "Bawełniana torba wielorazowego użytku z nadrukiem roślinnym",
+    "price": 14.9,
+    "image": "https://picsum.photos/seed/104/200/140",
+    "categories": ["Ogród", "Sypialnia", "Eko Dom"]
+  },
+  {
+    "id": 105,
+    "title": "Materac kieszeniowy 140x200",
+    "description": "Wygodny, ekologiczny materac z pokrowcem, idealny do sypialni",
+    "price": 499.0,
+    "image": "https://picsum.photos/seed/105/200/140",
+    "categories": ["Ogród", "Sypialnia"]
+  },
+  {
+    "id": 106,
+    "title": "Kompostownik ogrodowy",
+    "description": "Naturalny sposób na przetwarzanie odpadów organicznych",
+    "price": 129.99,
+    "image": "https://picsum.photos/seed/106/200/140",
+    "categories": ["Sypialnia"]
+  },
+  {
+    "id": 107,
+    "title": "Zestaw bambusowych szczoteczek",
+    "description": "Zestaw 4 ekologicznych szczoteczek do zębów z bambusa",
+    "price": 19.9,
+    "image": "https://picsum.photos/seed/107/200/140",
+    "categories": ["Zero Waste"]
+  },
+  {
+    "id": 108,
+    "title": "Butelka filtrująca 0.7L",
+    "description": "Wielorazowa butelka z węglowym filtrem do wody kranowej",
+    "price": 39.9,
+    "image": "https://picsum.photos/seed/108/200/140",
+    "categories": ["Sypialnia", "Ogród"]
+  },
+  {
+    "id": 109,
+    "title": "Eko torba na zakupy",
+    "description": "Bawełniana torba wielorazowego użytku z nadrukiem roślinnym",
+    "price": 14.9,
+    "image": "https://picsum.photos/seed/109/200/140",
+    "categories": ["Zero Waste", "Eko Dom", "Sypialnia"]
+  },
+  {
+    "id": 110,
+    "title": "Materac kieszeniowy 140x200",
+    "description": "Wygodny, ekologiczny materac z pokrowcem, idealny do sypialni",
+    "price": 499.0,
+    "image": "https://picsum.photos/seed/110/200/140",
+    "categories": ["Ogród", "Zero Waste"]
+  },
+  {
+    "id": 111,
+    "title": "Kompostownik ogrodowy",
+    "description": "Naturalny sposób na przetwarzanie odpadów organicznych",
+    "price": 129.99,
+    "image": "https://picsum.photos/seed/111/200/140",
+    "categories": ["Eko Dom", "Sypialnia", "Ogród"]
+  },
+  {
+    "id": 112,
+    "title": "Zestaw bambusowych szczoteczek",
+    "description": "Zestaw 4 ekologicznych szczoteczek do zębów z bambusa",
+    "price": 19.9,
+    "image": "https://picsum.photos/seed/112/200/140",
+    "categories": ["Eko Dom", "Zero Waste"]
+  },
+  {
+    "id": 113,
+    "title": "Butelka filtrująca 0.7L",
+    "description": "Wielorazowa butelka z węglowym filtrem do wody kranowej",
+    "price": 39.9,
+    "image": "https://picsum.photos/seed/113/200/140",
+    "categories": ["Ogród"]
+  },
+  {
+    "id": 114,
+    "title": "Eko torba na zakupy",
+    "description": "Bawełniana torba wielorazowego użytku z nadrukiem roślinnym",
+    "price": 14.9,
+    "image": "https://picsum.photos/seed/114/200/140",
+    "categories": ["Zero Waste", "Ogród", "Eko Dom"]
+  },
+  {
+    "id": 115,
+    "title": "Materac kieszeniowy 140x200",
+    "description": "Wygodny, ekologiczny materac z pokrowcem, idealny do sypialni",
+    "price": 499.0,
+    "image": "https://picsum.photos/seed/115/200/140",
+    "categories": ["Ogród", "Zero Waste"]
+  },
+  {
+    "id": 116,
+    "title": "Kompostownik ogrodowy",
+    "description": "Naturalny sposób na przetwarzanie odpadów organicznych",
+    "price": 129.99,
+    "image": "https://picsum.photos/seed/116/200/140",
+    "categories": ["Eko Dom"]
+  },
+  {
+    "id": 117,
+    "title": "Zestaw bambusowych szczoteczek",
+    "description": "Zestaw 4 ekologicznych szczoteczek do zębów z bambusa",
+    "price": 19.9,
+    "image": "https://picsum.photos/seed/117/200/140",
+    "categories": ["Eko Dom", "Ogród"]
+  },
+  {
+    "id": 118,
+    "title": "Butelka filtrująca 0.7L",
+    "description": "Wielorazowa butelka z węglowym filtrem do wody kranowej",
+    "price": 39.9,
+    "image": "https://picsum.photos/seed/118/200/140",
+    "categories": ["Zero Waste", "Ogród", "Eko Dom"]
+  },
+  {
+    "id": 119,
+    "title": "Eko torba na zakupy",
+    "description": "Bawełniana torba wielorazowego użytku z nadrukiem roślinnym",
+    "price": 14.9,
+    "image": "https://picsum.photos/seed/119/200/140",
+    "categories": ["Ogród", "Eko Dom", "Zero Waste"]
+  },
+  {
+    "id": 120,
+    "title": "Materac kieszeniowy 140x200",
+    "description": "Wygodny, ekologiczny materac z pokrowcem, idealny do sypialni",
+    "price": 499.0,
+    "image": "https://picsum.photos/seed/120/200/140",
+    "categories": ["Sypialnia", "Zero Waste", "Ogród"]
+  },
+  {
+    "id": 121,
+    "title": "Kompostownik ogrodowy",
+    "description": "Naturalny sposób na przetwarzanie odpadów organicznych",
+    "price": 129.99,
+    "image": "https://picsum.photos/seed/121/200/140",
+    "categories": ["Sypialnia"]
+  },
+  {
+    "id": 122,
+    "title": "Zestaw bambusowych szczoteczek",
+    "description": "Zestaw 4 ekologicznych szczoteczek do zębów z bambusa",
+    "price": 19.9,
+    "image": "https://picsum.photos/seed/122/200/140",
+    "categories": ["Eko Dom", "Sypialnia"]
+  },
+  {
+    "id": 123,
+    "title": "Butelka filtrująca 0.7L",
+    "description": "Wielorazowa butelka z węglowym filtrem do wody kranowej",
+    "price": 39.9,
+    "image": "https://picsum.photos/seed/123/200/140",
+    "categories": ["Zero Waste"]
+  },
+  {
+    "id": 124,
+    "title": "Eko torba na zakupy",
+    "description": "Bawełniana torba wielorazowego użytku z nadrukiem roślinnym",
+    "price": 14.9,
+    "image": "https://picsum.photos/seed/124/200/140",
+    "categories": ["Eko Dom", "Zero Waste"]
+  },
+  {
+    "id": 125,
+    "title": "Materac kieszeniowy 140x200",
+    "description": "Wygodny, ekologiczny materac z pokrowcem, idealny do sypialni",
+    "price": 499.0,
+    "image": "https://picsum.photos/seed/125/200/140",
+    "categories": ["Eko Dom", "Zero Waste", "Sypialnia"]
+  },
+  {
+    "id": 126,
+    "title": "Kompostownik ogrodowy",
+    "description": "Naturalny sposób na przetwarzanie odpadów organicznych",
+    "price": 129.99,
+    "image": "https://picsum.photos/seed/126/200/140",
+    "categories": ["Ogród"]
+  },
+  {
+    "id": 127,
+    "title": "Zestaw bambusowych szczoteczek",
+    "description": "Zestaw 4 ekologicznych szczoteczek do zębów z bambusa",
+    "price": 19.9,
+    "image": "https://picsum.photos/seed/127/200/140",
+    "categories": ["Eko Dom", "Zero Waste"]
+  },
+  {
+    "id": 128,
+    "title": "Butelka filtrująca 0.7L",
+    "description": "Wielorazowa butelka z węglowym filtrem do wody kranowej",
+    "price": 39.9,
+    "image": "https://picsum.photos/seed/128/200/140",
+    "categories": ["Ogród"]
+  },
+  {
+    "id": 129,
+    "title": "Eko torba na zakupy",
+    "description": "Bawełniana torba wielorazowego użytku z nadrukiem roślinnym",
+    "price": 14.9,
+    "image": "https://picsum.photos/seed/129/200/140",
+    "categories": ["Zero Waste"]
+  },
+  {
+    "id": 130,
+    "title": "Materac kieszeniowy 140x200",
+    "description": "Wygodny, ekologiczny materac z pokrowcem, idealny do sypialni",
+    "price": 499.0,
+    "image": "https://picsum.photos/seed/130/200/140",
+    "categories": ["Eko Dom", "Ogród"]
+  },
+  {
+    "id": 131,
+    "title": "Kompostownik ogrodowy",
+    "description": "Naturalny sposób na przetwarzanie odpadów organicznych",
+    "price": 129.99,
+    "image": "https://picsum.photos/seed/131/200/140",
+    "categories": ["Ogród"]
+  },
+  {
+    "id": 132,
+    "title": "Zestaw bambusowych szczoteczek",
+    "description": "Zestaw 4 ekologicznych szczoteczek do zębów z bambusa",
+    "price": 19.9,
+    "image": "https://picsum.photos/seed/132/200/140",
+    "categories": ["Eko Dom", "Zero Waste"]
+  },
+  {
+    "id": 133,
+    "title": "Butelka filtrująca 0.7L",
+    "description": "Wielorazowa butelka z węglowym filtrem do wody kranowej",
+    "price": 39.9,
+    "image": "https://picsum.photos/seed/133/200/140",
+    "categories": ["Zero Waste", "Eko Dom"]
+  },
+  {
+    "id": 134,
+    "title": "Eko torba na zakupy",
+    "description": "Bawełniana torba wielorazowego użytku z nadrukiem roślinnym",
+    "price": 14.9,
+    "image": "https://picsum.photos/seed/134/200/140",
+    "categories": ["Ogród", "Eko Dom"]
+  },
+  {
+    "id": 135,
+    "title": "Materac kieszeniowy 140x200",
+    "description": "Wygodny, ekologiczny materac z pokrowcem, idealny do sypialni",
+    "price": 499.0,
+    "image": "https://picsum.photos/seed/135/200/140",
+    "categories": ["Ogród"]
+  },
+  {
+    "id": 136,
+    "title": "Kompostownik ogrodowy",
+    "description": "Naturalny sposób na przetwarzanie odpadów organicznych",
+    "price": 129.99,
+    "image": "https://picsum.photos/seed/136/200/140",
+    "categories": ["Zero Waste", "Ogród"]
+  },
+  {
+    "id": 137,
+    "title": "Zestaw bambusowych szczoteczek",
+    "description": "Zestaw 4 ekologicznych szczoteczek do zębów z bambusa",
+    "price": 19.9,
+    "image": "https://picsum.photos/seed/137/200/140",
+    "categories": ["Ogród", "Sypialnia"]
+  },
+  {
+    "id": 138,
+    "title": "Butelka filtrująca 0.7L",
+    "description": "Wielorazowa butelka z węglowym filtrem do wody kranowej",
+    "price": 39.9,
+    "image": "https://picsum.photos/seed/138/200/140",
+    "categories": ["Zero Waste", "Sypialnia", "Eko Dom"]
+  },
+  {
+    "id": 139,
+    "title": "Eko torba na zakupy",
+    "description": "Bawełniana torba wielorazowego użytku z nadrukiem roślinnym",
+    "price": 14.9,
+    "image": "https://picsum.photos/seed/139/200/140",
+    "categories": ["Ogród"]
+  },
+  {
+    "id": 140,
+    "title": "Materac kieszeniowy 140x200",
+    "description": "Wygodny, ekologiczny materac z pokrowcem, idealny do sypialni",
+    "price": 499.0,
+    "image": "https://picsum.photos/seed/140/200/140",
+    "categories": ["Sypialnia", "Eko Dom"]
+  },
+  {
+    "id": 141,
+    "title": "Kompostownik ogrodowy",
+    "description": "Naturalny sposób na przetwarzanie odpadów organicznych",
+    "price": 129.99,
+    "image": "https://picsum.photos/seed/141/200/140",
+    "categories": ["Ogród"]
+  },
+  {
+    "id": 142,
+    "title": "Zestaw bambusowych szczoteczek",
+    "description": "Zestaw 4 ekologicznych szczoteczek do zębów z bambusa",
+    "price": 19.9,
+    "image": "https://picsum.photos/seed/142/200/140",
+    "categories": ["Sypialnia", "Ogród", "Eko Dom"]
+  },
+  {
+    "id": 143,
+    "title": "Butelka filtrująca 0.7L",
+    "description": "Wielorazowa butelka z węglowym filtrem do wody kranowej",
+    "price": 39.9,
+    "image": "https://picsum.photos/seed/143/200/140",
+    "categories": ["Sypialnia", "Zero Waste"]
+  },
+  {
+    "id": 144,
+    "title": "Eko torba na zakupy",
+    "description": "Bawełniana torba wielorazowego użytku z nadrukiem roślinnym",
+    "price": 14.9,
+    "image": "https://picsum.photos/seed/144/200/140",
+    "categories": ["Zero Waste"]
+  },
+  {
+    "id": 145,
+    "title": "Materac kieszeniowy 140x200",
+    "description": "Wygodny, ekologiczny materac z pokrowcem, idealny do sypialni",
+    "price": 499.0,
+    "image": "https://picsum.photos/seed/145/200/140",
+    "categories": ["Zero Waste"]
+  },
+  {
+    "id": 146,
+    "title": "Kompostownik ogrodowy",
+    "description": "Naturalny sposób na przetwarzanie odpadów organicznych",
+    "price": 129.99,
+    "image": "https://picsum.photos/seed/146/200/140",
+    "categories": ["Eko Dom", "Sypialnia", "Ogród"]
+  },
+  {
+    "id": 147,
+    "title": "Zestaw bambusowych szczoteczek",
+    "description": "Zestaw 4 ekologicznych szczoteczek do zębów z bambusa",
+    "price": 19.9,
+    "image": "https://picsum.photos/seed/147/200/140",
+    "categories": ["Ogród", "Eko Dom"]
+  },
+  {
+    "id": 148,
+    "title": "Butelka filtrująca 0.7L",
+    "description": "Wielorazowa butelka z węglowym filtrem do wody kranowej",
+    "price": 39.9,
+    "image": "https://picsum.photos/seed/148/200/140",
+    "categories": ["Zero Waste"]
+  },
+  {
+    "id": 149,
+    "title": "Eko torba na zakupy",
+    "description": "Bawełniana torba wielorazowego użytku z nadrukiem roślinnym",
+    "price": 14.9,
+    "image": "https://picsum.photos/seed/149/200/140",
+    "categories": ["Zero Waste", "Sypialnia"]
+  },
+  {
+    "id": 150,
+    "title": "Materac kieszeniowy 140x200",
+    "description": "Wygodny, ekologiczny materac z pokrowcem, idealny do sypialni",
+    "price": 499.0,
+    "image": "https://picsum.photos/seed/150/200/140",
+    "categories": ["Zero Waste", "Eko Dom"]
+  }
+]
