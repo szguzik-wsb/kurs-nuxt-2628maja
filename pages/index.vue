@@ -53,49 +53,56 @@
       </div>
     </section>
 
-<!-- Sekcja "Wnętrze w pięknym stylu" -->
-<section class="py-12 bg-white">
-  <!-- Kontener główny -->
-  <div class="max-w-7xl mx-auto px-4">
-    <!-- Nagłówek -->
-    <h3 class="text-2xl font-bold mb-6 text-center">Wnętrze w pięknym stylu</h3>
+    <!-- Sekcja "Wnętrze w pięknym stylu" -->
+    <section class="py-12 bg-white">
+      <!-- Kontener główny -->
+      <div class="max-w-7xl mx-auto px-4">
+        <!-- Nagłówek -->
+        <h3 class="text-2xl font-bold mb-6 text-center">
+          Wnętrze w pięknym stylu
+        </h3>
 
-    <!-- Siatka produktów -->
-    <div class="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-      <!-- Karta produktu -->
-      <div
-        v-for="product in decorProducts"
-        :key="product.id"
-        class="bg-white shadow-md overflow-hidden flex flex-col transition hover:shadow-lg"
-      >
-        <!-- Klikalna sekcja prowadząca do strony produktu -->
-        <NuxtLink :to="`/product/${product.id}`">
-          <img
-            :src="product.image"
-            :alt="product.title"
-            class="w-full h-48 object-cover"
-          />
-          <div class="p-4">
-            <h4 class="font-bold text-lg mb-1">{{ product.title }}</h4>
-            <p class="text-sm text-gray-600 mb-2">{{ product.description }}</p>
-            <span class="text-green-700 font-semibold">{{ product.price.toFixed(2) }} zł</span>
-          </div>
-        </NuxtLink>
-
-        <!-- Przycisk dodawania do koszyka -->
-        <div class="px-4 pb-4 mt-auto">
-          <button
-            @click="addToCart(product)"
-            class="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-2 transition cursor-pointer"
+        <!-- Siatka produktów -->
+        <div
+          class="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
+        >
+          <!-- Karta produktu -->
+          <div
+            v-for="product in decorProducts"
+            :key="product.id"
+            class="bg-white shadow-md overflow-hidden flex flex-col transition hover:shadow-lg"
           >
-            Dodaj do koszyka
-          </button>
+            <!-- Klikalna sekcja prowadząca do strony produktu -->
+            <NuxtLink :to="`/product/${product.id}`">
+              <img
+                :src="product.image"
+                :alt="product.title"
+                class="w-full h-48 object-cover"
+              />
+              <div class="p-4">
+                <h4 class="font-bold text-lg mb-1">{{ product.title }}</h4>
+                <p class="text-sm text-gray-600 mb-2">
+                  {{ product.description }}
+                </p>
+                <span class="text-green-700 font-semibold"
+                  >{{ product.price.toFixed(2) }} zł</span
+                >
+              </div>
+            </NuxtLink>
+
+            <!-- Przycisk dodawania do koszyka -->
+            <div class="px-4 pb-4 mt-auto">
+              <button
+                @click="addToCart(product)"
+                class="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-2 transition cursor-pointer"
+              >
+                Dodaj do koszyka
+              </button>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-
+    </section>
   </template>
 </template>
 <script setup>

@@ -5,6 +5,8 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
+    "dev:ssl1": "npx nuxi dev --https",
+    "dev:ssl2": "npx nuxi dev --https --ssl-cert ./example.com+5.pem --ssl-key ./example.com+5-key.pem",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
@@ -13,6 +15,7 @@
   "dependencies": {
     "@pinia/nuxt": "^0.11.0",
     "@tailwindcss/vite": "^4.1.7",
+    "@vite-pwa/nuxt": "^1.0.1",
     "material-symbols": "^0.31.3",
     "nuxt": "^3.17.4",
     "pinia-plugin-persistedstate": "^4.3.0",
