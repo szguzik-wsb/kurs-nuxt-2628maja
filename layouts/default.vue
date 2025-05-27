@@ -1,7 +1,7 @@
 <template>
+  <TopBarInfo />
   <TopBar />
   <slot />
-  <CookieConsent />
   <Footer />
 </template>
 

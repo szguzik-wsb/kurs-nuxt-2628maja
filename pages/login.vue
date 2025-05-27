@@ -2,9 +2,6 @@
 definePageMeta({
   layout: "auth",
 });
-
-import { ref } from "vue";
-
 const loginForm = ref({ email: "", password: "" });
 const registerForm = ref({ email: "", password: "", name: "" });
 

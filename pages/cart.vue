@@ -7,8 +7,7 @@
 
       <div class="space-y-6">
         <CartItem
-          v-for="item in cartItems"
-          :key="item.id"
+          v-for="item in cartItems" :key="item.id"
           :product="item"
           @update:quantity="(val, id) => updateQuantity(id, val)"
         />
@@ -32,7 +31,8 @@
         <span>{{ totalPrice.toFixed(2) }} zł</span>
       </div>
       <button
-        class="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-3 mb-2"
+        class="w-full bg-green-600 hover:bg-green-700 text-white font-bold 
+        py-3 mb-2"
       >
         DOSTAWA I PŁATNOŚĆ
       </button>

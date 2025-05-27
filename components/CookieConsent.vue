@@ -1,25 +1,37 @@
 <template>
   <div
     v-if="isMounted"
-    class="fixed bottom-0 left-0 w-full bg-white border-t-[2px] border-green-600 border-solid text-base p-6 shadow-xl z-[99999] transform transition-transform duration-500 ease-out"
+    class="fixed bottom-0 left-0 
+    w-full bg-white border-t-[2px] border-green-600 
+    border-solid text-base p-6 shadow-xl z-[99999] 
+    transform transition-transform duration-500 ease-out"
     :class="visible ? 'translate-y-0' : 'translate-y-full'"
   >
     <div
-      class="max-w-7xl mx-auto flex flex-col md:flex-row items-start md:items-center justify-between gap-6"
+      class="max-w-7xl mx-auto flex 
+      flex-col md:flex-row items-start md:items-center 
+      justify-between gap-6"
     >
       <div class="flex items-start gap-3">
-        <span class="material-symbols-outlined text-green-600 text-4xl mt-1"
+        <span class="material-symbols-outlined 
+        text-green-600 text-4xl mt-1"
           >cookie</span
         >
-        <p class="text-gray-800 leading-relaxed text-base">
-          Korzystając z naszej strony wyrażasz zgodę na wykorzystywanie plików
-          cookie w celu poprawy jakości usług, analizy ruchu i personalizacji
-          reklam. Więcej informacji znajdziesz w naszej polityce prywatności.
+        <p class="text-gray-800 leading-relaxed 
+        text-base">
+          Korzystając z naszej strony wyrażasz zgodę 
+          na wykorzystywanie plików
+          cookie w celu poprawy jakości usług, 
+          analizy ruchu i personalizacji
+          reklam. Więcej informacji znajdziesz w 
+          naszej polityce prywatności.
         </p>
       </div>
       <button
         @click="acceptCookies"
-        class="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 text-base rounded-none"
+        class="bg-green-600 hover:bg-green-700 
+        text-white font-bold py-3 px-8 text-base 
+        rounded-none"
       >
         Akceptuję
       </button>

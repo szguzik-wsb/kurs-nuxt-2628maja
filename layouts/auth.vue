@@ -1,4 +1,5 @@
 <template>
+  <TopBarInfo />
   <div class="min-h-screen bg-gray-100 flex flex-col">
     <!-- Pasek z logo -->
     <div class="bg-green-600 px-4 py-4 flex justify-center">
@@ -14,6 +15,7 @@
       </div>
     </div>
   </div>
+  <Footer></Footer>
 </template>
 
 <script lang="ts" setup></script>
