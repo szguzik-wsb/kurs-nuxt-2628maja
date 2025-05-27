@@ -57,12 +57,12 @@
             </select>
           </div>
         </div>
-        <NuxtLink
-          to="/cart"
+        <button 
+          @click="addToCart(product)"
           class="block text-center w-full bg-green-600 hover:bg-green-700 text-white py-3 font-bold"
         >
           DODAJ DO KOSZYKA
-        </NuxtLink>
+        </button>
       </div>
     </template>
   </main>
@@ -92,6 +92,7 @@
 
 <script lang="ts" setup>
 const route = useRoute();
+const cart = useCartStore();
 const productId = route.params.id;
 
 const {
@@ -118,6 +119,15 @@ const images = [
     full: "https://picsum.photos/600/400?image=4",
   },
 ];
+
+const addToCart = (product: any) => {
+  cart.addToCart({
+    id: product.id,
+    title: product.title,
+    price: product.price,
+    image: product.image,
+  });
+};
 
 const activeImageFull = ref(images[0].full);
 const isModalOpen = ref(false);
