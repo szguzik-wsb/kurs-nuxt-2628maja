@@ -13,6 +13,12 @@ export const useCartStore = defineStore('cart', {
     items: [] as CartItem[]
   }),
 
+  persist: import.meta.client
+  ? {
+      storage: localStorage
+    }
+  : false,
+
   getters: {
     totalItems: (state) => state.items.reduce((sum, item) => sum + item.quantity, 0),
     totalPrice: (state) =>

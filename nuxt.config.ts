@@ -27,5 +27,5 @@ export default defineNuxtConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-  modules: ['@pinia/nuxt']
+  modules: ['@pinia/nuxt', 'pinia-plugin-persistedstate/nuxt']
 });
