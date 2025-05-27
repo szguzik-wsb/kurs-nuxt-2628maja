@@ -27,7 +27,7 @@ const description = computed(() => props.error?.message || 'Spróbuj ponownie p�
       <div class="bg-white shadow-xl p-8 rounded max-w-lg w-full text-center">
         <span class="material-symbols-outlined text-red-600 text-6xl mb-4">error</span>
         <h1 class="text-3xl font-bold text-green-700 mb-2">
-          {{ error.statusCode }} – {{ title }}
+          {{ error?.statusCode }} – {{ title }}
         </h1>
         <p class="text-gray-600 mb-6">{{ description }}</p>
         <NuxtLink to="/" class="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-6 rounded">
