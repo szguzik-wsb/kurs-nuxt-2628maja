@@ -99,7 +99,11 @@
 </template>
 
 <script lang="ts" setup>
+const isMenuOpen = ref(false);
 
+const toggleMenu = () => {
+  isMenuOpen.value = !isMenuOpen.value;
+};
 </script>
 
 <style>
