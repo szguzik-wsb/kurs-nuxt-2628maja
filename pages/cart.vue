@@ -13,13 +13,22 @@
           @update:quantity="updateQuantity"
         />
 
-        <div v-if="cart.items.length === 0" class="text-center py-20 text-gray-500 text-lg">
-  <span class="material-symbols-outlined text-5xl mb-4 text-gray-300 block">remove_shopping_cart</span>
-  <p class="font-semibold">Twój koszyk jest pusty</p>
-  <NuxtLink to="/" class="text-green-600 font-medium hover:underline mt-2 inline-block">
-    Wróć do zakupów
-  </NuxtLink>
-</div>
+        <div
+          v-if="cart.items.length === 0"
+          class="text-center py-20 text-gray-500 text-lg"
+        >
+          <span
+            class="material-symbols-outlined text-5xl mb-4 text-gray-300 block"
+            >remove_shopping_cart</span
+          >
+          <p class="font-semibold">Twój koszyk jest pusty</p>
+          <NuxtLink
+            to="/"
+            class="text-green-600 font-medium hover:underline mt-2 inline-block"
+          >
+            Wróć do zakupów
+          </NuxtLink>
+        </div>
       </div>
     </section>
 
@@ -39,7 +48,9 @@
         <span>Razem:</span>
         <span>{{ cart.totalPrice.toFixed(2) }} zł</span>
       </div>
-      <button class="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-3 mb-2">
+      <button
+        class="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-3 mb-2"
+      >
         DOSTAWA I PŁATNOŚĆ
       </button>
       <NuxtLink to="/" class="text-green-600 hover:underline block text-center">
@@ -50,20 +61,20 @@
 </template>
 
 <script setup lang="ts">
-import { useCartStore } from '@/stores/cart'
-import CartItem from '@/components/CartItem.vue'
+import { useCartStore } from "@/stores/cart";
+import CartItem from "@/components/CartItem.vue";
 
-const cart = useCartStore()
+const cart = useCartStore();
 
 // Aktualizacja ilości w Pinia
 const updateQuantity = (newQty: number, productId: number) => {
-  const item = cart.items.find((p) => p.id === productId)
-  if (!item) return
+  const item = cart.items.find((p) => p.id === productId);
+  if (!item) return;
 
   if (newQty > item.quantity) {
-    cart.addToCart(item)
+    cart.addToCart(item);
   } else {
-    cart.removeOneFromCart(productId)
+    cart.removeOneFromCart(productId);
   }
-}
+};
 </script>

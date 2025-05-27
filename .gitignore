@@ -5,7 +5,7 @@
 .nitro
 .cache
 dist
-
+allegreen.zip
 # Node dependencies
 node_modules
 

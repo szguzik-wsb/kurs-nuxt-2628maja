@@ -71,9 +71,7 @@
 
     <!-- Sekcja z produktami -->
     <section class="md:col-span-3">
-      <h2 class="text-2xl font-bold mb-6">
-        Lista produktów
-      </h2>
+      <h2 class="text-2xl font-bold mb-6">Lista produktów</h2>
       <div class="grid gap-6">
         <div v-if="pending">Ładowanie...</div>
         <div v-else-if="error">Błąd: {{ error.message }}</div>
@@ -81,7 +79,7 @@
           <NuxtLink
             v-for="product in visibleProducts"
             :key="product.id"
-            to="/product"
+            :to="`/product/${product.id}`"
             class="bg-white p-4 flex flex-col md:flex-row gap-4 shadow-md"
           >
             <img
@@ -100,9 +98,8 @@
                 {{ product.price.toFixed(2) }} zł
               </p>
               <button
-               @click="addToCart(product)"
-                class="mt-2 bg-green-600 hover:bg-green-700 text-white px-4 py-2 
-                font-semibold"
+                @click="addToCart(product)"
+                class="mt-2 bg-green-600 hover:bg-green-700 text-white px-4 py-2 font-semibold"
               >
                 Dodaj do koszyka
               </button>
@@ -118,7 +115,7 @@
 </template>
 
 <script setup lang="ts">
-const cart = useCartStore()
+const cart = useCartStore();
 const { data: allProducts, pending, error } = await useFetch("/api/products");
 const limit = 20;
 const displayed = ref(limit);
@@ -129,9 +126,9 @@ const addToCart = (product: any) => {
     id: product.id,
     title: product.title,
     price: product.price,
-    image: product.image
-  })
-}
+    image: product.image,
+  });
+};
 
 const toggleCategory = (category: string) => {
   const index = selectedCategories.value.indexOf(category);
