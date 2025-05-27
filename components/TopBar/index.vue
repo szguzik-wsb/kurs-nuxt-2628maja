@@ -42,17 +42,17 @@
             <span class="material-symbols-outlined">notifications</span>
           </a>
           <NuxtLink to="/cart" class="relative hover:underline">
-  <span class="material-symbols-outlined">shopping_bag</span>
+            <span class="material-symbols-outlined">shopping_bag</span>
 
-  <client-only>
-    <span
-      v-if="cart.totalItems > 0"
-      class="absolute -top-2 -right-2 bg-red-600 text-white text-xs w-5 h-5 flex items-center justify-center rounded-full font-bold shadow"
-    >
-      {{ cart.totalItems }}
-    </span>
-  </client-only>
-</NuxtLink>
+            <client-only>
+              <span
+                v-if="cart.totalItems > 0"
+                class="absolute -top-2 -right-2 bg-red-600 text-white text-xs w-5 h-5 flex items-center justify-center rounded-full font-bold shadow"
+              >
+                {{ cart.totalItems }}
+              </span>
+            </client-only>
+          </NuxtLink>
           <!-- Ikona konta / logowania -->
           <NuxtLink to="/login" class="hover:underline">
             <span class="material-symbols-outlined">account_circle</span>
