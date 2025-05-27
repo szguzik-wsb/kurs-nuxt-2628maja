@@ -100,6 +100,7 @@
                 {{ product.price.toFixed(2) }} zł
               </p>
               <button
+               @click="addToCart(product)"
                 class="mt-2 bg-green-600 hover:bg-green-700 text-white px-4 py-2 
                 font-semibold"
               >
@@ -117,10 +118,20 @@
 </template>
 
 <script setup lang="ts">
+const cart = useCartStore()
 const { data: allProducts, pending, error } = await useFetch("/api/products");
 const limit = 20;
 const displayed = ref(limit);
 const selectedCategories = ref<string[]>([]);
+
+const addToCart = (product: any) => {
+  cart.addToCart({
+    id: product.id,
+    title: product.title,
+    price: product.price,
+    image: product.image
+  })
+}
 
 const toggleCategory = (category: string) => {
   const index = selectedCategories.value.indexOf(category);
@@ -133,7 +144,7 @@ const toggleCategory = (category: string) => {
 
 const filteredProducts = computed(() => {
   if (!selectedCategories.value.length) return allProducts.value || [];
-  return (allProducts.value || []).filter((product) =>
+  return (allProducts.value || []).filter((product: any) =>
     selectedCategories.value.some((cat) => product.categories.includes(cat)),
   );
 });

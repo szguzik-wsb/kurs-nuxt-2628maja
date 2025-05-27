@@ -7,10 +7,19 @@
 
       <div class="space-y-6">
         <CartItem
-          v-for="item in cartItems" :key="item.id"
+          v-for="item in cart.items"
+          :key="item.id"
           :product="item"
-          @update:quantity="(val, id) => updateQuantity(id, val)"
+          @update:quantity="updateQuantity"
         />
+
+        <div v-if="cart.items.length === 0" class="text-center py-20 text-gray-500 text-lg">
+  <span class="material-symbols-outlined text-5xl mb-4 text-gray-300 block">remove_shopping_cart</span>
+  <p class="font-semibold">Twój koszyk jest pusty</p>
+  <NuxtLink to="/" class="text-green-600 font-medium hover:underline mt-2 inline-block">
+    Wróć do zakupów
+  </NuxtLink>
+</div>
       </div>
     </section>
 
@@ -19,7 +28,7 @@
       <h3 class="text-xl font-bold mb-4">Podsumowanie</h3>
       <div class="mb-2 flex justify-between">
         <span>Wartość produktów:</span>
-        <span>{{ totalPrice.toFixed(2) }} zł</span>
+        <span>{{ cart.totalPrice.toFixed(2) }} zł</span>
       </div>
       <div class="mb-2 flex justify-between">
         <span>Dostawa:</span>
@@ -28,60 +37,33 @@
       <hr class="my-4" />
       <div class="mb-4 flex justify-between font-bold text-lg">
         <span>Razem:</span>
-        <span>{{ totalPrice.toFixed(2) }} zł</span>
+        <span>{{ cart.totalPrice.toFixed(2) }} zł</span>
       </div>
-      <button
-        class="w-full bg-green-600 hover:bg-green-700 text-white font-bold 
-        py-3 mb-2"
-      >
+      <button class="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-3 mb-2">
         DOSTAWA I PŁATNOŚĆ
       </button>
-      <a href="#" class="text-green-600 hover:underline block text-center"
-        >Kontynuuj zakupy</a
-      >
+      <NuxtLink to="/" class="text-green-600 hover:underline block text-center">
+        Kontynuuj zakupy
+      </NuxtLink>
     </aside>
   </main>
 </template>
 
-<script lang="ts" setup>
-const cartItems = ref([
-  {
-    id: 1,
-    title: "Materac 140x200 kieszeniowy BLANCO",
-    description: "7 stref, średnio twardy, pokrowiec zdejmowany",
-    price: 475.0,
-    quantity: 1,
-    image: "https://picsum.photos/120/80",
-  },
-  {
-    id: 2,
-    title: "Poduszka ortopedyczna profilowana",
-    description: "Pianka memory 40x30 cm",
-    price: 69.0,
-    quantity: 2,
-    image: "https://picsum.photos/121/80",
-  },
-  {
-    id: 3,
-    title: "Kołdra całoroczna z włókien kukurydzy",
-    description: "Rozmiar: 160x200 cm",
-    price: 199.0,
-    quantity: 1,
-    image: "https://picsum.photos/122/80",
-  },
-]);
+<script setup lang="ts">
+import { useCartStore } from '@/stores/cart'
+import CartItem from '@/components/CartItem.vue'
 
-function updateQuantity(id: number, newQuantity: number) {
-  const item = cartItems.value.find((p) => p.id === id);
-  if (item) item.quantity = newQuantity;
+const cart = useCartStore()
+
+// Aktualizacja ilości w Pinia
+const updateQuantity = (newQty: number, productId: number) => {
+  const item = cart.items.find((p) => p.id === productId)
+  if (!item) return
+
+  if (newQty > item.quantity) {
+    cart.addToCart(item)
+  } else {
+    cart.removeOneFromCart(productId)
+  }
 }
-
-const totalPrice = computed(() => {
-  return cartItems.value.reduce(
-    (sum, item) => sum + item.price * item.quantity,
-    0,
-  );
-});
 </script>
-
-<style scoped></style>
