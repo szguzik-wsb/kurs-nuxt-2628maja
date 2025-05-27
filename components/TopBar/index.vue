@@ -1,5 +1,5 @@
 <template>
-    <header class="bg-green-600 text-white p-4 sticky top-0 z-50">
+  <header class="bg-green-600 text-white p-4 sticky top-0 z-50">
     <div class="max-w-7xl mx-auto">
       <div class="flex flex-wrap items-center justify-between gap-4">
         <NuxtLink to="/">
@@ -29,21 +29,25 @@
           </button>
         </div>
 
-        <nav class="space-x-4 hidden md:flex">
-          <NuxtLink to="/" class="hover:underline"
-            ><span class="material-symbols-outlined">home</span></NuxtLink
-          >
-          <a href="#" class="hover:underline"
-            ><span class="material-symbols-outlined scale-x-[-1]"
+        <nav class="space-x-4 hidden md:flex items-center">
+          <NuxtLink to="/" class="hover:underline">
+            <span class="material-symbols-outlined">home</span>
+          </NuxtLink>
+          <a href="#" class="hover:underline">
+            <span class="material-symbols-outlined scale-x-[-1]"
               >local_shipping</span
-            ></a
-          >
-          <a href="#" class="hover:underline"
-            ><span class="material-symbols-outlined">notifications</span></a
-          >
-          <a href="#" class="hover:underline"
-            ><span class="material-symbols-outlined">shopping_bag</span></a
-          >
+            >
+          </a>
+          <a href="#" class="hover:underline">
+            <span class="material-symbols-outlined">notifications</span>
+          </a>
+          <a href="#" class="hover:underline">
+            <span class="material-symbols-outlined">shopping_bag</span>
+          </a>
+          <!-- Ikona konta / logowania -->
+          <NuxtLink to="/login" class="hover:underline">
+            <span class="material-symbols-outlined">account_circle</span>
+          </NuxtLink>
         </nav>
 
         <!-- Hamburger for mobile -->
@@ -106,6 +110,4 @@ const toggleMenu = () => {
 };
 </script>
 
-<style>
-
-</style>
+<style></style>
