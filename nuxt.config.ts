@@ -32,35 +32,35 @@ export default defineNuxtConfig({
     "pinia-plugin-persistedstate/nuxt",
     "@vite-pwa/nuxt",
   ],
-    devServer: {
+  devServer: {
     https: {
-      key: './example.com+5-key.pem',
-      cert: './example.com+5.pem'
-    }
+      key: "./example.com+5-key.pem",
+      cert: "./example.com+5.pem",
+    },
   },
   pwa: {
     manifest: {
-      name: 'Green Allegro',
-      short_name: 'Green',
-      start_url: '/',
-      display: 'standalone',
-      background_color: '#ffffff',
-      theme_color: '#16a34a',
+      name: "Green Allegro",
+      short_name: "Green",
+      start_url: "/",
+      display: "standalone",
+      background_color: "#ffffff",
+      theme_color: "#16a34a",
       icons: [
         {
-          src: '/pwa-icon-192x192.png',
-          sizes: '192x192',
-          type: 'image/png'
+          src: "/pwa-icon-192x192.png",
+          sizes: "192x192",
+          type: "image/png",
         },
         {
-          src: '/pwa-icon-512x512.png',
-          sizes: '512x512',
-          type: 'image/png'
-        }
-      ]
+          src: "/pwa-icon-512x512.png",
+          sizes: "512x512",
+          type: "image/png",
+        },
+      ],
     },
     devOptions: {
-      enabled: true
-    }
-  }
+      enabled: true,
+    },
+  },
 });
