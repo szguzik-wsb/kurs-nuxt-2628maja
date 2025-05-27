@@ -72,7 +72,7 @@
     <!-- Sekcja z produktami -->
     <section class="md:col-span-3">
       <h2 class="text-2xl font-bold mb-6">
-        Wyniki wyszukiwania dla: "materac 140x200"
+        Lista produktów
       </h2>
       <div class="grid gap-6">
         <div v-if="pending">Ładowanie...</div>
@@ -100,7 +100,8 @@
                 {{ product.price.toFixed(2) }} zł
               </p>
               <button
-                class="mt-2 bg-green-600 hover:bg-green-700 text-white px-4 py-2 font-semibold"
+                class="mt-2 bg-green-600 hover:bg-green-700 text-white px-4 py-2 
+                font-semibold"
               >
                 Dodaj do koszyka
               </button>
@@ -144,6 +145,7 @@ const visibleProducts = computed(() =>
 const loadMoreRef = ref<HTMLElement | null>(null);
 onMounted(() => {
   if (!loadMoreRef.value) return;
+
   const observer = new IntersectionObserver(
     (entries) => {
       if (entries[0].isIntersecting) {
