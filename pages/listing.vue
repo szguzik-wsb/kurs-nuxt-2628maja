@@ -133,7 +133,7 @@ const toggleCategory = (category: string) => {
 
 const filteredProducts = computed(() => {
   if (!selectedCategories.value.length) return allProducts.value || [];
-  return (allProducts.value || []).filter((product) =>
+  return (allProducts.value || []).filter((product: any) =>
     selectedCategories.value.some((cat) => product.categories.includes(cat)),
   );
 });
