@@ -71,44 +71,48 @@
 
     <!-- Sekcja z produktami -->
     <section class="md:col-span-3">
-      <h2 class="text-2xl font-bold mb-6">
-        Lista produktów
-      </h2>
+      <h2 class="text-2xl font-bold mb-6">Lista produktów</h2>
       <div class="grid gap-6">
         <div v-if="pending">Ładowanie...</div>
         <div v-else-if="error">Błąd: {{ error.message }}</div>
         <template v-else>
-          <NuxtLink
+          <div
             v-for="product in visibleProducts"
             :key="product.id"
-            to="/product"
-            class="bg-white p-4 flex flex-col md:flex-row gap-4 shadow-md"
+            class="bg-white p-4 flex flex-col md:flex-row gap-4 shadow-md transition hover:shadow-lg"
           >
-            <img
-              :src="product.image"
-              alt="Produkt"
-              class="w-full md:w-48 h-auto object-cover"
-            />
-            <div class="flex-1">
-              <h3 class="text-lg font-semibold">
-                {{ product.title }} | {{ product.categories.join(", ") }}
-              </h3>
-              <p class="text-sm text-gray-600 mb-2">
-                {{ product.description }}
-              </p>
-              <p class="text-green-700 font-bold text-lg">
-                {{ product.price.toFixed(2) }} zł
-              </p>
+            <!-- Cała sekcja klikalna oprócz przycisku -->
+            <NuxtLink :to="`/product/${product.id}`" class="flex flex-1 gap-4">
+              <img
+                :src="product.image"
+                alt="Produkt"
+                class="w-full md:w-48 h-auto object-cover"
+              />
+              <div class="flex-1">
+                <h3 class="text-lg font-semibold">
+                  {{ product.title }} | {{ product.categories.join(", ") }}
+                </h3>
+                <p class="text-sm text-gray-600 mb-2">
+                  {{ product.description }}
+                </p>
+                <p class="text-green-700 font-bold text-lg">
+                  {{ product.price.toFixed(2) }} zł
+                </p>
+              </div>
+            </NuxtLink>
+
+            <!-- Oddzielny przycisk poza NuxtLink -->
+            <div class="md:w-auto flex items-end">
               <button
-                class="mt-2 bg-green-600 hover:bg-green-700 text-white px-4 py-2 
-                font-semibold"
+                @click.stop="addToCart(product)"
+                class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 font-semibold cursor-pointer"
               >
                 Dodaj do koszyka
               </button>
             </div>
-          </NuxtLink>
+          </div>
 
-          <!-- Element sentinel dla IntersectionObservera -->
+          <!-- Sentinel do lazy loadingu -->
           <div ref="loadMoreRef" class="h-8"></div>
         </template>
       </div>
@@ -117,10 +121,20 @@
 </template>
 
 <script setup lang="ts">
+const cart = useCartStore();
 const { data: allProducts, pending, error } = await useFetch("/api/products");
 const limit = 20;
 const displayed = ref(limit);
 const selectedCategories = ref<string[]>([]);
+
+const addToCart = (product: any) => {
+  cart.addToCart({
+    id: product.id,
+    title: product.title,
+    price: product.price,
+    image: product.image,
+  });
+};
 
 const toggleCategory = (category: string) => {
   const index = selectedCategories.value.indexOf(category);
