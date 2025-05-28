@@ -34,7 +34,7 @@
         <h1 class="text-2xl font-bold mb-2">
           {{ product.title }}
         </h1>
-        <p class="text-green-700 font-bold text-2xl mb-4">499,00 zł</p>
+        <p class="text-green-700 font-bold text-2xl mb-4">{{ product.price.toFixed(2) }} zł</p>
 
         <p class="text-sm text-gray-600 mb-4">
           Ekologiczny materac z pokrowcem, 7 stref twardości, wysokość 20cm
